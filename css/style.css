@@ -1,0 +1,115 @@
+:root{
+    font-size: 14px;
+}
+body{
+    background-image: url(../img/bg-intro-desktop.png);
+    font-family: "Poppins", sans-serif;
+}
+main{
+    background-color: rgba(255,121,120,0.6);
+    min-height: 100vh;
+    align-content: center;
+    padding-bottom: 3rem;
+}
+h1{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.page{
+    width: 80%;
+    display: flex;
+    justify-self: center;
+}
+.sec1{
+    align-content: center;
+    color: white;
+    margin-bottom: 5%;
+    width:50%;
+}
+.sec2{
+    align-content: center;
+    width:50%;
+}
+.banner{
+    background-color: rgba(93,84,163,255);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0.1rem 0.5rem rgba(219,102,102,0.5);
+}
+.form{
+    text-align: center;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-shadow: 0.1px 6px rgba(219,102,102,0.5);
+}
+.form1:focus{
+    border-color: rgba(93,84,163,255);
+    box-shadow: none; 
+}
+input{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.btn{
+    width:100%;
+    margin-top: 0.5rem;
+    background-color:rgba(55,204,138,255);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0.1px 3px rgba(65,189,134,255);
+    margin-bottom: 0.5rem;
+}
+.btn:hover{
+    background-color:rgba(55,204,138,255);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+.error{
+    color: rgba(255,121,120);
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: end;
+    height:1.5rem;
+}
+.print1{
+    font-size: 0.8rem;
+}
+.print2{
+    font-size: 0.8rem;
+    color:rgba(255,121,120);
+    font-weight: 600;
+}
+.b1{
+    font-weight: 600;
+}
+.b2{
+    font-weight: 300;
+}
+
+@media screen and (max-width:768px){
+    main{
+        padding-top: 5rem;
+    }
+    .page{
+        width: 80%;
+        display: block;
+        justify-self: center;
+    }
+    .sec1{
+        text-align: center;
+        width:100%;
+    }
+    .sec2{
+        width:100%;
+    }
+}
