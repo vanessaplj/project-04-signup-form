@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github - Project 04 - Files]([https://your-solution-url.com](https://github.com/vanessaplj/project-04-signup-form))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages - Project 04](https://vanessaplj.github.io/project-04-signup-form/)
 
 ## My process
 
